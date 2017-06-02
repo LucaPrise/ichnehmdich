@@ -1,0 +1,24 @@
+mysql:
+  use-mysl: false
+  host: localhost
+  port: 3306
+  user: user
+  pass: pass
+  database: main
+Scoreboard:
+    # Variables: %online% || %gems% || %gold% || %elixir% || %dark_elixir% || %trophies% || %wins%  || %defeat%
+    # 
+    VILLAGE:
+      title: '   &cISLAND   '
+      lines:
+      - '&f&l' # blank line, 2 blank lines cant have the same color
+      - '&cOnline: &f%online%'
+      - '&aGems: &f%gems%'
+      - '&aGold: &f%gold%'
+      - '&aElixir: &f%elixir%'
+      - '&aDark Elixir: &f%dark_elixer%'
+      # in ticks, each line updates individually
+      # so if line one updated after 4 ticks
+      # last line would update after 4*(lastline nb) ticks
+      update-interval: 4
+    

@@ -1,0 +1,8 @@
+name: Craft of Clans
+version: 0.0.1
+authors: [Liwaa,Luca]
+description: It's Clash of Clans in minecraft.
+main: eu.unrealdev.clashofclans.COCMain
+
+commands:
+  
